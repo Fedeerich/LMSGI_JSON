@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <!-- Primer producto-->
+    <producto id="001">
+        <name>Frankfurt</name>
+        <descripcion>Este profucto es exportado de Alemania, de las mejores carnes que vas a probar. Muy bueno, y con un precio adecuado.</descripcion>
+        <preu moneda="EUR">11.99</preu>
+        <categoria>Comida rapida</categoria>
+        <disponibilidad>En estoc</disponibilidad>
+        <imatge>images/frankfurt.png</imatge>
+    </producto>
+    <!-- Segundo producto-->
+    <producto id="002">
+        <name>Salmon</name>
+        <descripcion>Este producto es exportado de Noruega, de los mejores salmones del mundo que vas a probar. Calidad precio.</descripcion>
+        <preu moneda="EUR">7.99</preu>
+        <categoria>Comida Premium</categoria>
+        <disponibilidad>Esgotat</disponibilidad>
+        <imatge>images/salmon.jpg</imatge>
+    </producto>
+</productos>
