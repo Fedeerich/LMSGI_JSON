@@ -2,7 +2,161 @@
     "pokemon" : {
         "pokemon_count" : 2,
         "pokemon_list" : [
-            
+         {
+            "id" : 1,
+            "nom" : "Bulbasur",
+            "tipus" : {
+                "primer" : "planta",
+                "segon" : "veneno"
+            },
+            "pes" : {
+                "magnitud" : "kg",
+                "valor" : 6.9
+            },
+            "altura" : {
+                "magnitud" : "m",
+                "valor" : 0.7
+            },
+            "estadistiques" : {
+                "velocidad" : {
+                    "nom" : "Velocidad",
+                    "estrelles" : 3
+                },
+                "fortaleza" : {
+                    "nom" : "Fortaleza",
+                    "estrelles" : 3
+                },
+                "precision" : {
+                    "nom" : "Precision",
+                    "estrelles" : 4
+                },
+                "resistencia" : {
+                    "nom" : "Resistencia",
+                    "estrelles" : 4
+                },
+                "salto" : {
+                    "nom" : "Salto",
+                    "estrelles" : 3
+                }
+            },
+            "moviment" : [
+                {
+                    "nivell" : 1,
+                    "nom" : "Placaje",
+                    "descripcio" : "Movimiento de tipo normal que tiene una potencia de 35 y una precisión del 95%.",
+                    "potencia" : 40,
+                    "contacte" : true
+                },
+                {
+                    "nivell" : 3,
+                    "nom" : "Látigo cepa",
+                    "descripcio" : "Movimiento de tipo planta que tiene una potencia de 35 y 10 PP.",
+                    "potencia" : 45,
+                    "contacte" : true
+                },
+                {
+                    "nivell" : 15,
+                    "nom" : "Somnífero",
+                    "descripcio" : "Movimiento de tipo planta que duerme al objetivo, no afecta insomnio o espíritu vital.",
+                    "potencia" : null,
+                    "contacte" : false
+                },
+                {
+                    "nivell" : 21,
+                    "nom" : "Derribo",
+                    "descripcio" : "Movimiento de tipo normal que recibe un daño de retroceso igual a 1/4 de los PS restados del objetivo.",
+                    "potencia" : 90,
+                    "contacte" : true
+                }
+            ],
+            "imagen" : "https://images.wikidexcdn.net//mwuploads//wikidex//4//43//Bulbasaur.png",
+            "evolucions": [ 
+                { 
+                "id_pokemon": "Ivysaur",  
+                "nivel_necesario": 16 
+                },
+                { 
+                "id_pokemon": "Venusaur",  
+                "nivel_necesario": 32 
+                }
+            ]
+         },
+         {
+            "id" : 2,
+            "nom" : "Charmander",
+            "tipus" : "fuego",
+            "pes" : {
+                "magnitud" : "kg",
+                "valor" : 8.5
+            },
+            "altura" : {
+                "magnitud" : "m",
+                "valor" : 0.6
+            },
+            "estadistiques" : {
+                "velocidad" : {
+                    "nom" : "Velocidad",
+                    "estrelles" : 3
+                },
+                "fortaleza" : {
+                    "nom" : "Fortaleza",
+                    "estrelles" : 5
+                },
+                "precision" : {
+                    "nom" : "Precision",
+                    "estrelles" : 4
+                },
+                "resistencia" : {
+                    "nom" : "Resistencia",
+                    "estrelles" : 3
+                },
+                "salto" : {
+                    "nom" : "Salto",
+                    "estrelles" : 3
+                }
+            },
+            "moviment" : [
+                {
+                    "nivell" : 1,
+                    "nom" : "Arañazo",
+                    "descripcio" : "Movimiento de tipo normal que causa daño y no tiene ningún efecto secundario.",
+                    "potencia" : 40,
+                    "contacte" : true
+                },
+                {
+                    "nivell" : 17,
+                    "nom" : "Colmillo ígneo",
+                    "descripcio" : "Movimiento de tipo fuego con una probibilidad de 10% de quemar al rival y un 10% de amedrentarlo.",
+                    "potencia" : 65,
+                    "contacte" : true
+                },
+                {
+                    "nivell" : 24,
+                    "nom" : "Lanzallamas",
+                    "descripcio" : "Movimiento de tipo fuego con probabilidad del 10% de quemar al objetivo.",
+                    "potencia" : 90,
+                    "contacte" : false
+                },
+                {
+                    "nivell" : 32,
+                    "nom" : "Giro fuego",
+                    "descripcio" : "Movimiento de tipo fuego causa daño durante 2-5 turnos. Tiene una probabilidad del 37,5% de atacar 2 o 3 turnos y un 12,5% de atacar 4 o 5 turnos.",
+                    "potencia" : 35,
+                    "contacte" : false
+                }
+            ],
+            "imagen" : "https://images.wikidexcdn.net//mwuploads//wikidex//5//56//Charmander.png",
+            "evolucions": [ 
+                { 
+                "id_pokemon": "Charmaleon",  
+                "nivel_necesario": 16 
+                },
+                { 
+                "id_pokemon": "Charizard",  
+                "nivel_necesario": 32 
+                }
+            ]
+         }
         ]
     }
 }
